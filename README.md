@@ -91,12 +91,15 @@ qa-login-project/
 
 ## 📂 docs/
 
-Contém toda a documentação funcional e técnica do projeto:
+Contém toda a documentação funcional e técnica do projeto.
 
-- User Story
-- Plano de Testes
-- Casos de Teste
-- Cenários BDD
+### 🔗 Acessar documentação
+
+- [README da documentação](docs/README.md)
+- [User Story](docs/user-story.md)
+- [Plano de Testes](docs/plano-de-testes.md)
+- [Casos de Teste](docs/casos-de-teste.md)
+- [BDD](docs/bdd.md)
 
 ---
 
@@ -105,6 +108,11 @@ Contém toda a documentação funcional e técnica do projeto:
 ## 📂 bdd/
 
 Contém os cenários escritos em Gherkin utilizados para validação comportamental da funcionalidade de login.
+
+### 🔗 Acessar arquivos BDD
+
+- [README BDD](bdd/README.md)
+- [Arquivo login.feature](bdd/login.feature)
 
 ---
 
@@ -122,6 +130,34 @@ Contém:
 - Cenários BDD
 - Bug report
 - Mind map
+
+### 🔗 Acessar evidências
+
+- [README das imagens](images/README.md)
+
+---
+
+# 📋 Jira Board
+
+<p align="center">
+  <img src="images/jira-board.png" width="900"/>
+</p>
+
+---
+
+# 📑 Estrutura de Tickets
+
+<p align="center">
+  <img src="images/jira-list.png" width="900"/>
+</p>
+
+---
+
+# 🐞 Bug Report
+
+<p align="center">
+  <img src="images/bug-report.png" width="900"/>
+</p>
 
 ---
 
@@ -144,12 +180,6 @@ Contém:
 - Login com senha inválida
 - Login com campos vazios
 - Validação de mensagens de erro
-
----
-
-# 🐞 Bug identificado
-
-Durante a execução dos testes foi identificado um defeito relacionado à ausência de mensagem de erro ao inserir senha inválida.
 
 ---
 
