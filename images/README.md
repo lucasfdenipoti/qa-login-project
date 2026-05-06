@@ -1,61 +1,168 @@
-# Evidências do Projeto QA
+# QA Login Project
 
-Esta pasta contém as imagens e evidências utilizadas no projeto de estudo em Quality Assurance.
-
----
-
-## 📸 Imagens disponíveis
-
-### 🗺️ mind-map.png
-Mind map criado para levantamento de requisitos e planejamento dos testes da funcionalidade de login.
+Projeto de estudo focado em planejamento e execução de testes manuais utilizando Jira Software.
 
 ---
 
-### 📋 jira-board.png
-Board do Jira utilizado para organização e acompanhamento das issues.
+# 📌 Objetivo
+
+Simular um fluxo real de Quality Assurance em uma funcionalidade de autenticação/login.
 
 ---
 
-### 📑 jira-list.png
-Visualização da lista completa de tickets do projeto.
+# 🧠 Funcionalidades abordadas
+
+- Criação de Epic e User Story
+- Planejamento de testes
+- Casos de teste manuais
+- Cenários BDD
+- Bug Report
+- Organização de board
+- Rastreabilidade entre issues
 
 ---
 
-### 👑 epic.png
-Epic criada para representar a macro funcionalidade de autenticação.
+# 🛠️ Ferramentas utilizadas
+
+- Jira Software
+- GitHub
 
 ---
 
-### 📘 story.png
-User Story contendo descrição funcional e critérios de aceite.
+# 🚀 Fluxo utilizado
+
+Epic → Story → Test Cases → BDD → Bug
 
 ---
 
-### ✅ tc-01.png
-Caso de teste manual para login com sucesso.
+# 📸 Evidências
+
+## 🗺️ Mind Map
+
+<p align="center">
+  <img src="images/mind-map.png" width="900"/>
+</p>
 
 ---
 
-### ⚠️ tc-02.png
-Caso de teste manual para validação de senha inválida.
+## 📋 Jira Board
+
+<p align="center">
+  <img src="images/jira-board.png" width="900"/>
+</p>
 
 ---
 
-### 🥒 bdd-01.png
-Cenário BDD para fluxo de login válido.
+## 📑 Lista de Tickets
+
+<p align="center">
+  <img src="images/jira-list.png" width="900"/>
+</p>
 
 ---
 
-### 🥒 bdd-02.png
-Cenário BDD para validação de campos obrigatórios.
+## 👑 Epic
+
+<p align="center">
+  <img src="images/epic.png" width="900"/>
+</p>
 
 ---
 
-### 🐞 bug-report.png
-Bug report criado durante a execução dos testes.
+## 📘 User Story
+
+<p align="center">
+  <img src="images/story.png" width="900"/>
+</p>
 
 ---
 
-# 🎯 Objetivo
+## ✅ Test Case — Login com sucesso
 
-Documentar visualmente o fluxo de QA, rastreabilidade e gerenciamento de defeitos utilizando Jira Software.
+<p align="center">
+  <img src="images/tc-01.png" width="900"/>
+</p>
+
+---
+
+## ⚠️ Test Case — Login com senha inválida
+
+<p align="center">
+  <img src="images/tc-02.png" width="900"/>
+</p>
+
+---
+
+## 🥒 BDD — Login válido
+
+<p align="center">
+  <img src="images/bdd-01.png" width="900"/>
+</p>
+
+---
+
+## 🥒 BDD — Login com campos vazios
+
+<p align="center">
+  <img src="images/bdd-02.png" width="900"/>
+</p>
+
+---
+
+## 🐞 Bug Report
+
+<p align="center">
+  <img src="images/bug-report.png" width="900"/>
+</p>
+
+---
+
+# 🎯 Resultado
+
+Projeto desenvolvido para praticar conceitos fundamentais de QA manual, documentação de testes, rastreabilidade e gerenciamento de defeitos utilizando Jira.
+
+---
+
+# 📂 Estrutura do Projeto
+
+```txt
+qa-login-project/
+│
+├── README.md
+│
+├── docs/
+│   ├── README.md
+│   ├── user-story.md
+│   ├── plano-de-testes.md
+│   ├── casos-de-teste.md
+│   └── bdd.md
+│
+├── images/
+│   ├── README.md
+│   ├── jira-board.png
+│   ├── jira-list.png
+│   ├── epic.png
+│   ├── story.png
+│   ├── tc-01.png
+│   ├── tc-02.png
+│   ├── bdd-01.png
+│   ├── bdd-02.png
+│   ├── bug-report.png
+│   └── mind-map.png
+│
+└── bdd/
+    └── login.feature
+```
+
+---
+
+# 🚀 Aprendizados
+
+- Organização de backlog
+- Planejamento de testes
+- Escrita de casos de teste
+- Criação de cenários BDD
+- Gestão de defeitos
+- Rastreabilidade entre issues
+- Fluxo de QA manual
+- Utilização do Jira em contexto de testes
