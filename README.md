@@ -111,7 +111,6 @@ Contém os cenários escritos em Gherkin utilizados para validação comportamen
 
 ### 🔗 Acessar arquivos BDD
 
-- [README BDD](bdd/README.md)
 - [Arquivo login.feature](bdd/login.feature)
 
 ---
