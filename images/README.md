@@ -1,168 +1,117 @@
-# QA Login Project
+# 📸 Evidências do Projeto QA
 
-Projeto de estudo focado em planejamento e execução de testes manuais utilizando Jira Software.
-
----
-
-# 📌 Objetivo
-
-Simular um fluxo real de Quality Assurance em uma funcionalidade de autenticação/login.
+Esta pasta contém todas as imagens e evidências utilizadas no projeto de estudo em Quality Assurance.
 
 ---
 
-# 🧠 Funcionalidades abordadas
+# 🗺️ Mind Map
 
-- Criação de Epic e User Story
-- Planejamento de testes
-- Casos de teste manuais
-- Cenários BDD
-- Bug Report
-- Organização de board
-- Rastreabilidade entre issues
-
----
-
-# 🛠️ Ferramentas utilizadas
-
-- Jira Software
-- GitHub
-
----
-
-# 🚀 Fluxo utilizado
-
-Epic → Story → Test Cases → BDD → Bug
-
----
-
-# 📸 Evidências
-
-## 🗺️ Mind Map
+Levantamento de requisitos e organização inicial dos testes da funcionalidade de login.
 
 <p align="center">
-  <img src="images/mind-map.png" width="900"/>
+  <img src="mind-map.png" width="900"/>
 </p>
 
 ---
 
-## 📋 Jira Board
+# 📋 Jira Board
+
+Board utilizado para gerenciamento das tarefas, testes e defeitos.
 
 <p align="center">
-  <img src="images/jira-board.png" width="900"/>
+  <img src="jira-board.png" width="900"/>
 </p>
 
 ---
 
-## 📑 Lista de Tickets
+# 📑 Lista de Tickets
+
+Visualização da estrutura hierárquica entre Epic, Story, Test Cases, BDD e Bug.
 
 <p align="center">
-  <img src="images/jira-list.png" width="900"/>
+  <img src="jira-list.png" width="900"/>
 </p>
 
 ---
 
-## 👑 Epic
+# 👑 Epic
+
+Epic criada para representar a macro funcionalidade de autenticação do sistema.
 
 <p align="center">
-  <img src="images/epic.png" width="900"/>
+  <img src="epic.png" width="900"/>
 </p>
 
 ---
 
-## 📘 User Story
+# 📘 User Story
+
+Story contendo a necessidade do usuário e os critérios de aceite da funcionalidade.
 
 <p align="center">
-  <img src="images/story.png" width="900"/>
+  <img src="story.png" width="900"/>
 </p>
 
 ---
 
-## ✅ Test Case — Login com sucesso
+# ✅ Test Case — Login com sucesso
+
+Caso de teste manual validando login com credenciais válidas.
 
 <p align="center">
-  <img src="images/tc-01.png" width="900"/>
+  <img src="tc-01.png" width="900"/>
 </p>
 
 ---
 
-## ⚠️ Test Case — Login com senha inválida
+# ⚠️ Test Case — Login com senha inválida
+
+Caso de teste manual validando o comportamento do sistema ao inserir senha incorreta.
 
 <p align="center">
-  <img src="images/tc-02.png" width="900"/>
+  <img src="tc-02.png" width="900"/>
 </p>
 
 ---
 
-## 🥒 BDD — Login válido
+# 🥒 BDD — Login válido
+
+Cenário BDD escrito em Gherkin para validação do fluxo positivo de login.
 
 <p align="center">
-  <img src="images/bdd-01.png" width="900"/>
+  <img src="bdd-01.png" width="900"/>
 </p>
 
 ---
 
-## 🥒 BDD — Login com campos vazios
+# 🥒 BDD — Login com campos vazios
+
+Cenário BDD para validação dos campos obrigatórios.
 
 <p align="center">
-  <img src="images/bdd-02.png" width="900"/>
+  <img src="bdd-02.png" width="900"/>
 </p>
 
 ---
 
-## 🐞 Bug Report
+# 🐞 Bug Report
+
+Bug criado durante a execução dos testes relacionado à ausência de mensagem de erro para senha inválida.
 
 <p align="center">
-  <img src="images/bug-report.png" width="900"/>
+  <img src="bug-report.png" width="900"/>
 </p>
 
 ---
 
-# 🎯 Resultado
+# 🎯 Objetivo das Evidências
 
-Projeto desenvolvido para praticar conceitos fundamentais de QA manual, documentação de testes, rastreabilidade e gerenciamento de defeitos utilizando Jira.
-
----
-
-# 📂 Estrutura do Projeto
-
-```txt
-qa-login-project/
-│
-├── README.md
-│
-├── docs/
-│   ├── README.md
-│   ├── user-story.md
-│   ├── plano-de-testes.md
-│   ├── casos-de-teste.md
-│   └── bdd.md
-│
-├── images/
-│   ├── README.md
-│   ├── jira-board.png
-│   ├── jira-list.png
-│   ├── epic.png
-│   ├── story.png
-│   ├── tc-01.png
-│   ├── tc-02.png
-│   ├── bdd-01.png
-│   ├── bdd-02.png
-│   ├── bug-report.png
-│   └── mind-map.png
-│
-└── bdd/
-    └── login.feature
-```
-
----
-
-# 🚀 Aprendizados
+Demonstrar:
 
 - Organização de backlog
 - Planejamento de testes
-- Escrita de casos de teste
+- Estruturação de QA manual
 - Criação de cenários BDD
 - Gestão de defeitos
-- Rastreabilidade entre issues
-- Fluxo de QA manual
-- Utilização do Jira em contexto de testes
+- Rastreamento entre issues
+- Fluxo de execução de testes utilizando Jira
